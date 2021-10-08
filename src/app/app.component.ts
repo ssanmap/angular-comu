@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'inou';
+  
+  constructor() {
+    
+  }
+  myf() {
+    return 'hola'
+  }
+
+  escuchaCarga(e:Event) {
+    console.log('padre', e)
+  }
 }
