@@ -18,7 +18,7 @@ export class HijoComponent implements OnInit {
   }
   cargaDatos() {
     //return
-    let palabra =  'cangando ......';
+    let palabra =  'cangando ...a...';
     this.carga.emit(this.arreglo);
   }
 
